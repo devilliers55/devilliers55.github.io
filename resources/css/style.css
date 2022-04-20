@@ -1,0 +1,68 @@
+:root {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 300px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    column-gap: 1.26rem;
+}
+
+nav li {
+    list-style-type: none;
+}
+nav li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+nav li a:visited {
+    color: darkgray;
+}
+nav li a:hover {
+    color: darkgoldenrod;
+}
+
+#aboutMe {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    column-gap: 1.25rem;
+}
+#children2 {
+    flex-grow: 1;
+}
+
+#children2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+#children1 {
+    flex-grow: 3;
+}
+
+i {
+    font-size: 3rem;
+}
+#skills div {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    margin-top: 4.25rem;
+    margin-bottom: 0;
+}
+
+#projects li {
+    list-style-type: square;
+}
