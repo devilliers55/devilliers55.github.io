@@ -5,8 +5,7 @@ body {
 }
 @media only screen and (max-width: 600px) { 
     body {
-        margin: 10px;
-       
+       margin: 10px;
     }
 }
 nav {
@@ -27,11 +26,12 @@ nav li a {
     cursor: pointer;
     color: black;
 }
-nav li a:visited {
-    color: black;
-}
+
 nav li a:hover {
     color: darkgoldenrod;
+}
+nav li a:active {
+    color: darkorange;
 }
 
 #aboutMe {
