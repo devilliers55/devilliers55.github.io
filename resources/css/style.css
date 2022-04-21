@@ -3,10 +3,8 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0 300px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) { 
     body {
-        font-size: 16px;
-        font-family: 'Poppins', sans-serif;
         margin: 0;
     }
 }
@@ -29,7 +27,7 @@ nav li a {
     color: black;
 }
 nav li a:visited {
-    color: darkgray;
+    color: black;
 }
 nav li a:hover {
     color: darkgoldenrod;
@@ -55,7 +53,7 @@ nav li a:hover {
 }
 
 i {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 #skills div {
     display: flex;
@@ -71,4 +69,9 @@ footer {
 
 #projects li {
     list-style-type: square;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
