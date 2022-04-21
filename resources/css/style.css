@@ -1,7 +1,8 @@
 body {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    margin: 0 300px;
+    margin: 0 100px;
+    height: 100vh;
 }
 @media only screen and (max-width: 600px) { 
     body {
@@ -37,7 +38,7 @@ nav li a:active {
 #aboutMe {
     display: flex;
     overflow: hidden;
-    align-items: center;
+    align-items: flex-start;
     column-gap: 1.25rem;
 }
 #children2 {
@@ -48,6 +49,7 @@ nav li a:active {
     width: 100%;
     height: auto;
     border-radius: 5%;
+    margin-top: 0.64rem;
 }
 #children1 {
     flex-grow: 3;
@@ -62,10 +64,10 @@ i {
 }
 
 footer {
-    position: relative;
-    text-align: center;
-    margin-top: 4.25rem;
-    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 #projects li {
