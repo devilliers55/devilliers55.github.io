@@ -9,6 +9,11 @@ body {
        margin: 10px;
     }
 }
+@media only screen and (min-width: 1000px){
+    body {
+        margin: 0 300px;
+    }
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -70,11 +75,17 @@ footer {
     transform: translate(-50%, 0);
 }
 
-#projects li {
-    list-style-type: square;
-}
-
 a {
     text-decoration: none;
     color: inherit;
+}
+
+#projects li {
+    cursor: pointer;
+}
+
+.toHide1,
+.toHide2,
+.toHide3 {
+    display: none;
 }
